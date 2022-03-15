@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!--Boootstrap-->
+  <link rel="stylesheet" href="CSS-file/bootstrap.min.css">
+  <!--fontawesome-->
+  <link rel="stylesheet" href="CSS-file/all.min.css">
+  <!--CSS-->
+  <link rel="stylesheet" href="CSS-file/style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <i class="fa-solid fa-apple-whole fa-2x"></i>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <!-- <li><hr class="dropdown-divider"></li> -->
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><a class="dropdown-item" href="#">Another link</a></li>
+            </ul>
+          </li>
+
+        </ul>
+        <button class="btn position-relative mx-3">
+          <i class="fa-solid fa-cart-arrow-down fa-2x"></i>
+          <span class="badge bg-success position-absolute start-100 top-0 translate-middle">1</span>
+        </button>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-light" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!--Banner-->
+
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="2000">
+        <img src="img/facu-montanaro-Lw4JaSGYcoY-unsplash.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>First slide label</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="img/kelly-sikkema-_NDonZJhGYY-unsplash.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Second slide label</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="img/rob-wicks-VNBP7672Geg-unsplash.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!--Category-->
+
+  <div class="container text-center">
+    <h1 class="title">Top Categories</h1>
+  </div>
+  <div class="row">
+    <div class="col-12 col-sm-6 col-md-4 gy-3">
+      <div class="category-item text-center border border-3 border-warning rounded-pill p-3">
+        <i class="fa-solid fa-shirt"></i>
+        <span>Clothes</span>
+
+      </div>
+
+    </div>
+    <div class="col-12 col-sm-6 col-md-4 gy-3">
+      <div class="category-item text-center border border-3 border-warning rounded-pill p-3">
+        <i class="fa-solid fa-socks"></i>
+        <span>Socks/span>
+
+      </div>
+
+    </div>
+    <div class="col-12 col-sm-6 col-md-4 gy-3">
+      <div class="category-item text-center border border-3 border-warning rounded-pill p-3">
+        <i class="fa-solid fa-hat-cowboy"></i>
+        <span>Hats</span>
+
+      </div>
+
+    </div>
+    <div class="col-12 col-sm-6 col-md-4 gy-3">
+      <div class="category-item text-center border border-3 border-warning rounded-pill p-3">
+        <i class="fa-solid fa-car-rear"></i>
+        <span>Cars</span>
+
+      </div>
+
+    </div>
+
+    <div class="col-12 col-sm-6 col-md-4 gy-3">
+      <div class="category-item text-center border border-3 border-warning rounded-pill p-3">
+        <i class="fa-solid fa-shirt"></i>
+        <span>Clothes</span>
+
+      </div>
+
+    </div>
+    <div class="col-12 col-sm-6 col-md-4 gy-3">
+      <div class="category-item text-center border border-3 border-warning rounded-pill p-3">
+        <i class="fa-solid fa-dog"></i>
+        <span>Clothes</span>
+
+      </div>
+
+    </div>
+  </div>
+
+  <!--Product-->
+
+  <div class="container text-center">
+    <h1 class="title">Lastest Products</h1>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5">
+      <div class="col gy-3">
+        <div class="card">
+          <img src="img/kelly-sikkema-_NDonZJhGYY-unsplash.jpg" alt="" class="card-img-top">
+          <div class="card-footer text-center">
+            <p class="card-text">Price: 25$</p>
+
+          </div>
+          <div class="product-card-overlay">
+            <i class="fa-solid fa-eye"></i>
+            <i class="fa-solid fa-cart-arrow-down"></i>
+
+          </div>
+        </div>
+
+      </div>
+      <div class="col gy-3">
+        <div class="card">
+          <img src="img/battlecreek-coffee-roasters-rsnzc-8dVs0-unsplash.jpg" alt="" class="card-img-top">
+          <div class="card-footer text-center">
+            <p class="card-text">Price: 25$</p>
+
+          </div>
+          <div class="product-card-overlay">
+            <i class="fa-solid fa-eye"></i>
+            <i class="fa-solid fa-cart-arrow-down"></i>
+
+          </div>
+        </div>
+
+      </div>
+      <div class="col gy-3">
+        <div class="card">
+          <img src="img/c-d-x-PDX_a_82obo-unsplash.jpg" alt="" class="card-img-top">
+          <div class="card-footer text-center">
+            <p class="card-text">Price: 25$</p>
+
+          </div>
+          <div class="product-card-overlay">
+            <i class="fa-solid fa-eye"></i>
+            <i class="fa-solid fa-cart-arrow-down"></i>
+
+          </div>
+        </div>
+
+      </div>
+      <div class="col gy-3">
+        <div class="card">
+          <img src="img/eniko-kis-KsLPTsYaqIQ-unsplash.jpg" alt="" class="card-img-top">
+          <div class="card-footer text-center">
+            <p class="card-text">Price: 25$</p>
+
+          </div>
+          <div class="product-card-overlay">
+            <i class="fa-solid fa-eye"></i>
+            <i class="fa-solid fa-cart-arrow-down"></i>
+
+          </div>
+        </div>
+
+      </div>
+      <div class="col gy-3">
+        <div class="card">
+          <img src="img/facu-montanaro-Lw4JaSGYcoY-unsplash.jpg" alt="" class="card-img-top">
+          <div class="card-footer text-center">
+            <p class="card-text">Price: 25$</p>
+
+          </div>
+          <div class="product-card-overlay">
+            <i class="fa-solid fa-eye"></i>
+            <i class="fa-solid fa-cart-arrow-down"></i>
+
+          </div>
+        </div>
+
+      </div>
+      <div class="col gy-3">
+        <div class="card">
+          <img src="img/facu-montanaro-Lw4JaSGYcoY-unsplash.jpg" alt="" class="card-img-top">
+          <div class="card-footer text-center">
+            <p class="card-text">Price: 25$</p>
+
+          </div>
+          <div class="product-card-overlay">
+            <i class="fa-solid fa-eye"></i>
+            <i class="fa-solid fa-cart-arrow-down"></i>
+
+          </div>
+
+        </div>
+
+      </div>
+      <div class="col gy-3">
+        <div class="card">
+          <img src="img/kaleb-tapp-8q19GH2I88s-unsplash.jpg" alt="" class="card-img-top">
+          <div class="card-footer text-center">
+            <p class="card-text">Price: 25$</p>
+
+          </div>
+          <div class="product-card-overlay">
+            <i class="fa-solid fa-eye"></i>
+            <i class="fa-solid fa-cart-arrow-down"></i>
+
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col gy-3">
+        <div class="card">
+          <img src="img/imani-bahati-LxVxPA1LOVM-unsplash.jpg" alt="" class="card-img-top">
+          <div class="card-footer text-center">
+            <p class="card-text">Price: 25$</p>
+
+          </div>
+          <div class="product-card-overlay">
+            <i class="fa-solid fa-eye"></i>
+            <i class="fa-solid fa-cart-arrow-down"></i>
+
+          </div>
+        </div>
+
+      </div>
+      <div class="col gy-3">
+        <div class="card">
+          <img src="img/rob-wicks-VNBP7672Geg-unsplash.jpg" alt="" class="card-img-top">
+          <div class="card-footer text-center">
+            <p class="card-text">Price: 25$</p>
+
+          </div>
+          <div class="product-card-overlay">
+            <i class="fa-solid fa-eye"></i>
+            <i class="fa-solid fa-cart-arrow-down"></i>
+
+          </div>
+        </div>
+
+      </div>
+      <div class="col gy-3">
+        <div class="card">
+          <img src="img/revolt-164_6wVEHfI-unsplash.jpg" alt="" class="card-img-top">
+          <div class="card-footer text-center">
+            <p class="card-text">Price: 25$</p>
+
+          </div>
+          <div class="product-card-overlay">
+            <i class="fa-solid fa-eye"></i>
+            <i class="fa-solid fa-cart-arrow-down"></i>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Contact -->
+
+  <div class="container text-center">
+    <h1 class="title">Contact Us</h1>
+    <form action="">
+      <div class="form-floating my-3">
+        <input type="text" class="form-control" placeholder="Enter your name">
+        <label for="">Name</label>
+
+      </div>
+      <div class="form-floating my-3">
+        <input type="email" class="form-control" placeholder="Enter your mail">
+        <label for="">Email</label>
+
+      </div>
+      <div class="form-floating my-3">
+        <textarea name="message" id="message" class="form-control" rows="3" placeholder="message"></textarea>
+        <label for="">Message</label>
+
+      </div>
+      <div class="text-center my-3">
+        <button type="submit" class="btn btn-outline-primary rounded-pill">Enter Your message</button>
+      </div>
+    </form>
+  </div>
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d11977400.901842546!2d95.2663393584181!3d12.269101316589163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2smm!4v1646022272238!5m2!1sen!2smm"
+    width="100%" height="450" style="border:1;" allowfullscreen="" loading="lazy"></iframe>
+
+  <!-- footer -->
+
+  <div class="container my-5">
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 row-cols-xl-5 ">
+      <div class="col">
+
+        <span class=" position-relative fs-1 fw-bold">
+          Claue
+          <span
+            class="position-absolute  top-0  end-2 translate-middle p-2 mt-4 bg-danger border border-light rounded-circle">
+            <span class="visually-hidden">New alerts</span>
+          </span>
+        </span>
+
+        <!-- <ul> -->
+        <li><i class="fas fa-map-marker-alt px-2"></i><span>&nbspNo.56,Sa Pal Road,Sann
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbspChaung,Yangon,Myanmar</span></li>
+        <li><i class="fas fa-phone px-2"></i><span>&nbsp(+95)9886090509,(+95)9408567534</span></li>
+        <li><i class="far fa-envelope px-2"></i>&nbspinfo@gmail.com</li>
+        <!-- </ul> -->
+        <i class="fa-brands fa-facebook-f px-2 my-3"></i>
+        <i class="fa-brands fa-instagram-square px-2"></i>
+        <i class="fa-brands fa-twitter px-2"></i>
+        <i class="fa-solid fa-comments px-2"></i>
+
+      </div>
+      <div class="col">
+        <h4>Categories</h4>
+        <!-- <ul class="m-auto"> -->
+        <li>Men</li>
+        <li>Women</li>
+        <li>Accessories</li>
+        <li>Shoes</li>
+        <li>Dress</li>
+        <!-- </ul> -->
+
+
+      </div>
+      <div class="col">
+        <h4>Information</h4>
+        <!-- <ul class="m-auto"> -->
+        <li>About Us</li>
+        <li>Contact Us</li>
+        <li>Terms & Conditions</li>
+        <li>Return & Exchange</li>
+        <li>Shipping & Delivery</li>
+        <li>Privacy Policy</li>
+        <!-- </ul> -->
+
+
+      </div>
+      <div class="col">
+        <h4>Quick Links</h4>
+        <!-- <ul> -->
+        <li>Store location</li>
+        <li>My Account</li>
+        <li>Accessories</li>
+        <li>Order tracking</li>
+        <li>Size Guide</li>
+        <li>FAQs</li>
+        <!-- </ul> -->
+
+      </div>
+      <div class="col">
+        <p>
+          subscribe to our newsletter and get 10% off your first purchase
+        </p>
+        <div class="input-group mb-3">
+          <input type="text" class="form-control border-3 rounded-pill w-60 py-2  position-relative"
+            placeholder="Your email address" aria-label="Recipient's username" aria-describedby="basic-addon2">
+          <span class="input-group-text border rounded-pill position-absolute end-0 bg-dark text-light mt-1 me-1 px-4"
+            id="basic-addon2">Subscriber</span>
+
+        </div>
+        <i class="fa-brands fa-cc-paypal fa-2x px-2"></i>
+        <i class="fa-brands fa-cc-visa fa-2x px-2"></i>
+        <i class="fa-brands fa-cc-apple-pay fa-2x px-2"></i>
+        <i class="fa-brands fa-cc-discover fa-2x px-2"></i>
+        <i class="fa-brands fa-cc-amex fa-2x px-2"></i>
+
+      </div>
+    </div>
+  </div>
+
+  <script src="JS-file/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
